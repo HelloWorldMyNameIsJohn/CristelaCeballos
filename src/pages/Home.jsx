@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Card from "../components/Card";
+import Phrase from "../components/Phrase";
 
 const cuadros = [
   {
@@ -91,7 +92,10 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <Hero click={click} />
+      <Hero />
+      <div className="divider"></div> 
+      <Phrase/>
+      <div className="divider"></div> 
       <h1 id="Galeria" className="font-bold text-5xl text-center my-16">
         Galeria
       </h1>
