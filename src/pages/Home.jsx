@@ -14,33 +14,32 @@ const cuadros = [
   {
     id: 2,
     title: "Cocktails",
-    description: "Un cocktail para un lugar elegante.",
+    description: "Un cóctel para un lugar elegante.",
     image: "assets/cocktails.jpg",
   },
   {
     id: 3,
     title: "Michelada",
-    description: "¿Una michelada?, ¡en cualquier momento!",
+    description: "¿Una michelada? ¡En cualquier momento!",
     image: "assets/michelada.jpg",
   },
   {
     id: 4,
     title: "Ventana",
-    description: "Él conoce hasta el interior de mi alma.",
+    description: "Él conoce incluso el interior de mi alma.",
     image: "assets/ventana.jpg",
   },
   {
     id: 5,
     title: "Perico",
-    description:
-      "Lleno de alegria me recuerda que la vida es un carnaval,  impregnado de vibra positiva para cambiar cualquier ambiente.",
+    description: "Lleno de alegría, me recuerda que la vida es un carnaval, impregnado de vibras positivas para cambiar cualquier ambiente.",
     image: "assets/perico.jpg",
   },
   {
     id: 6,
     title: "Confía en la magia",
     description:
-      "Busco embellecer un lugar a través de las letras. Entregó mis habilidades y mi corazón en cada trazo!",
+      "Busco embellecer un lugar a través de las letras. Entrego mis habilidades y mi corazón en cada trazo.",
     image: "assets/magia.jpg",
   },
   {
@@ -52,7 +51,7 @@ const cuadros = [
   {
     id: 8,
     title: "Menú de cafetería",
-    description: "Un menú ilustrativo para tu cafetería.",
+    description: "Un menú ilustrado para tu cafetería.",
     image: "assets/cafe.jpg",
   },
   {
@@ -71,7 +70,7 @@ const cuadros = [
     id: 11,
     title: "El Toro",
     description:
-      "Quién eres? Eres tú y no yo. Eres fuerte porque la fuerza está en ti. La grandeza en tu única manera de existir. Eres poder. Fuego corre en tu interior. Eres una decisión. La justicia está en tu lado izquierdo. El coraje en tu lado derecho. Eres una pasión de mi corazón.",
+      "¿Quién eres? Eres tú y no yo. Eres fuerte porque la fuerza está en ti. La grandeza en tu única manera de existir. Eres poder. Fuego corre en tu interior. Eres una decisión. La justicia está en tu lado izquierdo. El coraje en tu lado derecho. Eres una pasión de mi corazón.",
     image: "assets/toro.jpg",
   },
   {
@@ -97,7 +96,7 @@ const Home = () => {
       <Phrase/>
       <div className="divider"></div> 
       <h1 id="Galeria" className="font-bold text-5xl text-center my-16">
-        Galeria
+        Galería
       </h1>
       <div className="flex justify-center">
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
